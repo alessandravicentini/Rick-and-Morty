@@ -1,0 +1,76 @@
+.character-card-alive{
+    width: 250px;
+    height: 300px;
+
+    margin-bottom: 80px;
+
+    background: greenyellow;
+
+    border-radius: 10px;
+
+    box-shadow: 10px 15px 10px black;
+
+    font-family: fantasy;
+}
+
+.character-card-dead{
+    width: 250px;
+    height: 300px;
+
+    margin-bottom: 80px;
+
+    background: tomato;
+
+    border-radius: 10px;
+    
+    box-shadow: 10px 15px 10px black;
+
+    font-family: fantasy;
+}
+
+details{
+    width: 10em;
+
+    margin-left: 2.5em;
+    margin-bottom: 10px;
+
+    position: absolute;
+
+    cursor: pointer;
+}
+
+ul{
+    list-style: circle;
+
+    padding-left: 25px;
+    margin-top: 10px;
+
+    align-self: center;
+
+    background: white;
+
+    border-radius: 5px;
+    border: 1px solid black;    
+
+    box-shadow: 10px 15px 10px black;
+
+}
+
+img{
+    height: 60%;
+
+    margin-top: 25px;
+    
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+h2{
+    width: 80%;
+
+    margin-left: 1em;
+    
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

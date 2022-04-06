@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+}
+
+button{
+  width: 100px;
+
+  margin-left: 50px;
+  padding: 15px;
+
+  font-family: fantasy;
+
+  background-color: bisque; 
+
+  border: 1px soldi black;
+  border-radius: 5px;
+  box-shadow: 10px 15px 10px black;
+
+  cursor: pointer;
+}
+
+span{
+  font-size: 40px;
+}

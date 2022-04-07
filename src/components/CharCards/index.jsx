@@ -8,13 +8,13 @@ export const CharCard = ({character}) => {
             <details>
                 <summary>More Info</summary>
                 <ul>
-                <li>{character.name}</li>
-                <li>{character.gender}</li>
-                <li>{character.species}</li>
+                <li>Name: {character.name}</li>
+                <li>Gender: {character.gender}</li>
+                <li>Species: {character.species}</li>
                 {character.type === '' ? (
-                    <li>?</li>
-                ) : <li>{character.type}</li>}
-                <li>{character.status}</li>
+                    <li>Type: ?</li>
+                ) : <li>Type: {character.type}</li>}
+                <li>Status: {character.status}</li>
                 </ul>
             </details>
             

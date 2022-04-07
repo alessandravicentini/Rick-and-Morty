@@ -2,7 +2,7 @@
     width: 250px;
     height: 300px;
 
-    margin-bottom: 80px;
+    margin-bottom: 60px;
 
     background: greenyellow;
 
@@ -17,7 +17,7 @@
     width: 250px;
     height: 300px;
 
-    margin-bottom: 80px;
+    margin-bottom: 60px;
 
     background: tomato;
 
@@ -46,6 +46,8 @@ ul{
     margin-top: 10px;
 
     align-self: center;
+
+    text-align: left;
 
     background: white;
 

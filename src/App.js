@@ -18,7 +18,7 @@ function App() {
 
   const allPages = () => {
 
-    for(let i = 1; i <= pages; i++){
+    for(let i = 1; i < pages; i++){
       totalPages.push(i)
     }
 
@@ -55,9 +55,9 @@ function App() {
       </div>
 
       <div className='div-buttons'>
-      <button className='change-page' id={currentPage} onClick={previousPage}>Previous</button>
+      <button className={currentPage > 1 ? 'change-page' : 'change-page-hidden'} id={currentPage} onClick={previousPage}>Previous</button>
       <p>- {currentPage} -</p>
-      <button className='change-page' onClick={nextPage}>Next</button>
+      <button className={currentPage < 42 ? 'change-page' : 'change-page-hidden'} onClick={nextPage}>Next</button>
       </div>
 
     </div>

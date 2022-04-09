@@ -2,8 +2,7 @@ export const CharCard = ({character}) => {
 
     return (
 
-        <>
-        <div className={character.status === 'Alive' ? "character-card-alive" : "character-card-dead"}>
+        <div className={`character-card ${character.status}`}>
             <h2>{character.name}</h2>
             <details>
                 <summary>More Info</summary>
@@ -20,8 +19,7 @@ export const CharCard = ({character}) => {
             
             <img src={character.image} alt="character" />
         </div>
-        </>
-
+    
     )
 
 }

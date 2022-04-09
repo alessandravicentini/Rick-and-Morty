@@ -1,4 +1,4 @@
-.character-card-alive{
+.character-card{
     width: 250px;
     height: 300px;
 
@@ -13,19 +13,16 @@
     font-family: fantasy;
 }
 
-.character-card-dead{
-    width: 250px;
-    height: 300px;
+.Alive{
+    background: greenyellow;
+}
 
-    margin-bottom: 60px;
-
+.Dead{
     background: tomato;
+}
 
-    border-radius: 10px;
-    
-    box-shadow: 10px 15px 10px black;
-
-    font-family: fantasy;
+.unknown{
+    background: cornflowerblue;
 }
 
 details{
